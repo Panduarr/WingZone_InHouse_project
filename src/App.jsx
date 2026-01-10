@@ -1,6 +1,8 @@
 import React from 'react'
-// import About from './pages/franchising/about/about'
-import Whywing from './pages/franchising/ownthezone/whywing'
+import OwnTheZone from './pages/franchising/ownthezone/ownthezone'
+import Navbar from './pages/navbar/navbar'
+import Whywing from './pages/franchising/why/whywing'
+import About from './pages/franchising/about/about'
 // import Specials from './pages/wingplaza/specials'
 // import Wingermeals from './pages/wingplaza/wingermeals'
 // import Address from './pages/wingplaza/address'
@@ -13,8 +15,10 @@ function App() {
       <Address />
       <Specials />
       <Wingermeals /> */}
-      {/* <About /> */}
+      <About />
       <Whywing />
+      <Navbar />
+      <OwnTheZone />
     </div>
   )
 }
