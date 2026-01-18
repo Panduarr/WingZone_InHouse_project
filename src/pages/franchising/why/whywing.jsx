@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function Whywing() {
   return (
-    <div className="bg-pink-50 px-20 py-5">
+    <div className="bg-pink-50 ">
       <About />
       <Banner />
     </div>
@@ -241,7 +241,7 @@ const data = [
 export const About = () => {
   const [button, setButton] = useState(1);
   return (
-    <div className="flex flex-row-reverse gap-20">
+    <div className="flex flex-row-reverse gap-20 px-20 py-5">
       <div className="flex flex-col gap-2 h-55 w-5xl border-2 border-orange-500 relative">
         <h2 className="text-center bg-cyan-500 py-2 text-white text-xl font-bold">
           KNOW MORE
@@ -258,7 +258,7 @@ export const About = () => {
 
         <div className="absolute top-60 bg-orange-700 w-full p-5 flex flex-col gap-2 justify-center">
           <h4 className="text-md text-center text-white font-bold">
-            10 Steps To{" "}
+            10 Steps To
           </h4>
           <h2 className="text-2xl text-center text-white font-bold">
             OWN THE ZONE
@@ -277,8 +277,8 @@ export const About = () => {
 
 export const Banner = () => {
   return (
-    <div className="mt-10">
-      <div className="flex flex-row gap-8 border-2 border-orange-600 py-2 px-3 max-w-3/4">
+    <div className="mt-10 ">
+      <div className="flex flex-row gap-8 border-2 border-orange-600 py-2 px-3 max-w-3/4 mx-20 my-5">
         <div className="">
           <h3 className="text-3xl text-center font-extrabold">
             Stand Out Among The Rest
@@ -300,7 +300,7 @@ export const Banner = () => {
           src="https://www.wingzonefranchise.com/assets/texture-bg-mobile.webp"
           alt="image"
         />
-        <div className=" flex flex-row absolute top-7 left-10 gap-10">
+        <div className=" flex flex-row absolute top-7 left-20 gap-10">
           <div>
             <h3 className="text-2xl text-white font-bold">25+ Years</h3>
             <p className="text-md text-white font-bold py-2">
@@ -319,11 +319,14 @@ export const Banner = () => {
               of Orders are <br /> Take-Out/Delivery
             </p>
           </div>
-          <div className="bg-orange-500 py-1 px-3 w-auto h-15 mt-5 ml-40">
+          <div className="bg-orange-500 py-1 px-3 w-auto h-15 mt-5 ml-10">
             <h3 className="text-2xl text-white text-center font-bold px-10 py-2">
               View Investment
             </h3>
           </div>
+        </div>
+        <div className="absolute -top-30 left-240">
+          <img className="w-full h-auto object-cover" src="public/fake_image1.png" alt="fakeimage" />
         </div>
       </div>
 

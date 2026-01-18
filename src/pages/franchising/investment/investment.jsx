@@ -89,6 +89,18 @@ export const About = () => {
             src="public\image_vetfran.png"
             alt="Veteran Fran"
           />
+          <img
+            className="w-60 h-auto object-cover absolute -top-50 -left-150 rotate-90"
+            src="public/fake_image.png"
+            alt="fake_image"
+          />
+
+          <img
+            className="w-90 h-auto object-cover absolute top-30 left-130 rotate-90"
+            src="public/fake_image1.png"
+            alt="fake_image"
+          />
+
 
           <div className="bg-red-500 rounded-sm my-5 py-2 px-2">
             <h4 className="text-white text-center text-sm font-bold cursor-pointer">
@@ -219,8 +231,9 @@ export const Form = () => {
 export const SlideShow = () => {
   return (
     <div className="mt-[700px] px-30">
-
-      <h2 className="text-5xl text-center py-10 text-gray-500 font-bold">Our Awards</h2>
+      <h2 className="text-5xl text-center py-10 text-gray-500 font-bold">
+        Our Awards
+      </h2>
 
       <div className="flex flex-row gap-5 overflow-x-scroll scroll-auto px-20">
         <img

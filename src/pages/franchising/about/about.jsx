@@ -59,8 +59,8 @@ export const AboutUs = () => {
         </div>
         <div>
           <img
-            className="absolute top-0 left-240 w-60 h-auto object-cover rounded-2xl z-1"
-            src="https://olo-images-live.imgix.net/63/63f97d76f174463c8db12d707135ccdf.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=528&h=352&fit=fill&fm=png32&bg=transparent&s=fc2c77505cd9e8c931bb18d370f852d9"
+            className="absolute top-0 left-240 w-60 h-auto object-cover rounded-2xl z-1 rotate-180"
+            src="public/fake_image.png"
             alt="fake_image"
           />
         </div>
