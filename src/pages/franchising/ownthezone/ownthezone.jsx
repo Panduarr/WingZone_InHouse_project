@@ -5,6 +5,7 @@ function OwnTheZone() {
     <div className="bg-pink-50 px-15 py-10">
       <Steps />
       <Banner />
+      <SlideShow />
     </div>
   );
 }
@@ -376,15 +377,13 @@ export const Banner = () => {
         </div>
         <div className="absolute top-70 -left-20">
           <img
-            className="w-3/4 h-3/4"
+            className="w-1/2 h-1/2"
             src="	https://www.wingzonefranchise.com/assets/wings.webp"
-            alt=""
+            alt="image"
           />
         </div>
       </div>
 
-
-      
       <div className="flex flex-col gap-2 lg:absolute left-180 top-20 bg-red-600 px-15 py-20">
         <h4 className="text-md font-normal">
           Fill out the form below to begin:
@@ -452,6 +451,88 @@ export const Banner = () => {
             </p>
           </div>
         </form>
+      </div>
+    </div>
+  );
+};
+
+export const SlideShow = () => {
+  return (
+    <div className="pt-20">
+
+      <h2 className="text-5xl text-center py-10 text-gray-500 font-bold">Our Awards</h2>
+
+      <div className="flex flex-row gap-5 overflow-x-scroll scroll-auto px-20">
+        <img
+          className="w-30 h-10 object-fill mt-10"
+          src="https://www.wingzonefranchise.com/images/accolades/fast_casual_top100.png"
+          alt="slide_image"
+        />
+        <img
+          className="w-30 h-30 object-fill"
+          src="https://www.wingzonefranchise.com/images/accolades/buffalo-wing-festival.png"
+          alt="slide_image"
+        />
+        <img
+          className="w-30 h-30 object-fill"
+          src="https://www.wingzonefranchise.com/images/accolades/TopWorkPlace.1).png"
+          alt="slide_image"
+        />
+        <img
+          className="w-30 h-30 object-fill"
+          src="https://www.wingzonefranchise.com/images/accolades/rsz_rsz_1rsz_innovation_award_2021_1000px_2_1.png"
+          alt="slide_image"
+        />
+        <img
+          className="w-30 h-30 object-fill"
+          src="https://www.wingzonefranchise.com/images/awards/Top-Places-to-work-2021.png"
+          alt=""
+        />
+        <img
+          className="w-30 h-30 object-fill"
+          src="https://www.wingzonefranchise.com/images/accolades/2023-FCtop100.png"
+          alt="slide_image"
+        />
+        <img
+          className="w-30 h-30 object-fill"
+          src="https://www.wingzonefranchise.com/images/accolades/top100-badge.png"
+          alt="slide_image"
+        />
+        <img
+          className="w-30 h-10 object-fill mt-10"
+          src="https://www.wingzonefranchise.com/images/accolades/fast_casual_top100.png"
+          alt="slide_image"
+        />
+        <img
+          className="w-30 h-30 object-fill"
+          src="https://www.wingzonefranchise.com/images/accolades/buffalo-wing-festival.png"
+          alt="slide_image"
+        />
+        <img
+          className="w-30 h-30 object-fill"
+          src="https://www.wingzonefranchise.com/images/accolades/TopWorkPlace.1).png"
+          alt="slide_image"
+        />
+        <img
+          className="w-30 h-30 object-fill"
+          src="https://www.wingzonefranchise.com/images/accolades/rsz_rsz_1rsz_innovation_award_2021_1000px_2_1.png"
+          alt="slide_image"
+        />
+        <img
+          className="w-30 h-30 object-fill"
+          src="https://www.wingzonefranchise.com/images/awards/Top-Places-to-work-2021.png"
+          alt=""
+        />
+        <img
+          className="w-30 h-30 object-fill"
+          src="https://www.wingzonefranchise.com/images/accolades/2023-FCtop100.png"
+          alt="slide_image"
+        />
+        <img
+          className="w-30 h-30 object-fill"
+          src="https://www.wingzonefranchise.com/images/accolades/top100-badge.png"
+          alt="slide_image"
+        />
       </div>
     </div>
   );

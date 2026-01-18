@@ -1,26 +1,24 @@
-import React from 'react'
-import OwnTheZone from './pages/franchising/ownthezone/ownthezone'
-import Navbar from './pages/navbar/navbar'
-import Whywing from './pages/franchising/why/whywing'
-import About from './pages/franchising/about/about'
-// import Specials from './pages/wingplaza/specials'
-// import Wingermeals from './pages/wingplaza/wingermeals'
-// import Address from './pages/wingplaza/address'
-// import Header from './pages/wingplaza/header'
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./pages/navbar/navbar";
+import About from "./pages/franchising/about/about";
+import Whywing from "./pages/franchising/why/whywing";
+import OwnTheZone from "./pages/franchising/ownthezone/ownthezone";
+import Investment from "./pages/franchising/investment/investment";
+import Getstarted from "./pages/franchising/getstarted/getstarted";
 
 function App() {
   return (
     <div>
-      {/* <Header />
-      <Address />
-      <Specials />
-      <Wingermeals /> */}
-      <About />
-      <Whywing />
       <Navbar />
-      <OwnTheZone />
+      <Routes>
+        <Route path="about" element={<About />} />
+        <Route path="/whywing" element={<Whywing />} />
+        <Route path="/investment" element={<Investment />} />
+        <Route path="/ownthezone" element={<OwnTheZone />} />
+        <Route path="/getstarted" element={<Getstarted />} />
+      </Routes>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

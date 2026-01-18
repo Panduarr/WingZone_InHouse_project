@@ -256,14 +256,14 @@ export const About = () => {
           </button>
         ))}
 
-        <div className="absolute top-60 bg-orange-500 w-full p-5 flex flex-col gap-2 justify-center">
+        <div className="absolute top-60 bg-orange-700 w-full p-5 flex flex-col gap-2 justify-center">
           <h4 className="text-md text-center text-white font-bold">
             10 Steps To{" "}
           </h4>
           <h2 className="text-2xl text-center text-white font-bold">
             OWN THE ZONE
           </h2>
-          <div className="px-12">
+          <div className="pl-20">
             <button className="text-white font-bold border-2 py-1 px-2">
               Learn More
             </button>
@@ -277,7 +277,7 @@ export const About = () => {
 
 export const Banner = () => {
   return (
-    <div>
+    <div className="mt-10">
       <div className="flex flex-row gap-8 border-2 border-orange-600 py-2 px-3 max-w-3/4">
         <div className="">
           <h3 className="text-3xl text-center font-extrabold">
@@ -286,12 +286,200 @@ export const Banner = () => {
           <p className="text-sm text-center font-medium py-3">
             and get in touch with our franchise development team today.
           </p>
+        </div>
+        <div className="bg-cyan-500 py-1 px-3 w-auto h-15 mt-2 ml-2">
+          <h3 className="text-2xl text-white text-center font-bold px-5 py-2">
+            Contact Us to Get Started
+          </h3>
+        </div>
+      </div>
+
+      <div className="mt-10 relative">
+        <img
+          className="w-full h-40"
+          src="https://www.wingzonefranchise.com/assets/texture-bg-mobile.webp"
+          alt="image"
+        />
+        <div className=" flex flex-row absolute top-7 left-10 gap-10">
+          <div>
+            <h3 className="text-2xl text-white font-bold">25+ Years</h3>
+            <p className="text-md text-white font-bold py-2">
+              of Perfecting Our <br /> Award Winning Flavors
+            </p>
           </div>
-          <div className="bg-cyan-500 py-1 px-3 w-auto h-15 mt-2 ml-2">
-            <h3 className="text-2xl text-white text-center font-bold px-5 py-2">
-              Contact Us to Get Started
+          <div>
+            <h3 className="text-2xl text-white font-bold">$500k**</h3>
+            <p className="text-md text-white font-bold py-2">
+              Average <br /> Opening Cost
+            </p>
+          </div>
+          <div>
+            <h3 className="text-2xl text-white font-bold">85%</h3>
+            <p className="text-md text-white font-bold py-2">
+              of Orders are <br /> Take-Out/Delivery
+            </p>
+          </div>
+          <div className="bg-orange-500 py-1 px-3 w-auto h-15 mt-5 ml-40">
+            <h3 className="text-2xl text-white text-center font-bold px-10 py-2">
+              View Investment
             </h3>
-          
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-row gap-5 py-10">
+        <div className="w-full flex flex-col gap-2">
+          <h2 className="text-2xl font-bold max-w-xl">
+            Stand Out With Our Flavor Concept
+          </h2>
+          <p className="text-md max-w-2xl text-justify">
+            Many of our current franchise owners did their homework before
+            choosing our chicken wing franchise, and we hope you will do the
+            same. We're confident you'll find that we offer so much more than
+            other QSR franchise options. Just a few reasons to choose Wing Zone
+            include:
+          </p>
+          <ul className="text-sm max-w-2xl text-justify list-disc px-4">
+            <li>
+              <strong>Ranked Top 10 In Fast Casual:</strong> For the last two
+              years, Wing Zone has been ranked among the top 100 movers and
+              shakers in the fast-casual segment.
+            </li>
+            <li>
+              <strong>Established Brand Built On Flavor: </strong>
+              We've spent the last 30 years developing 18 award-winning flavors
+              to reward your taste buds.
+            </li>
+            <li>
+              <strong>Low Start-Up Costs</strong>
+            </li>
+            <li>
+              <strong>Comprehensive Training & Support</strong>
+            </li>
+            <li>
+              <strong>Small footprint</strong>
+            </li>
+            <li>
+              Technology Focused Leader in Delivery, Offsite Dining and Food
+              Innovation
+            </li>
+          </ul>
+          <p className="text-md max-w-2xl text-justify">
+            We offer our customers the option to choose any item on our menu and
+            pair it with one of our 18 award-winning flavors. Wings, sweet and
+            spicy mango fire chicken tenders... the possibilities are endless.
+            The result amazing flavor that rewards your taste buds.
+          </p>
+        </div>
+        <div className="w-3/4">
+          <img
+            className="w-full h-auto"
+            src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRTpGMf-Cm1o5qfL-TYuRRYIBu0_P5kGuM_BEZ_WqsLjrkUrGHB"
+            alt="image"
+          />
+          <div className="mt-5 border-2 border-red-700 px-4 py-2">
+            <h2 className="text-center text-xl text-cyan-400 font-bold underline">
+              Ready to get started?
+            </h2>
+            <p className="text-sm text-justify ">
+              Visit our{" "}
+              <span className="text-red-500 font-bold underline">
+                Steps to Own the Zone
+              </span>{" "}
+              page to learn more about how you can become the proud owner of a
+              Wing Zone franchise location.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="relative">
+        <div className="my-10 mx-15">
+          <img
+            className="w-3/4 h-auto object-cover absolute -left-20"
+            src="https://olo-images-live.imgix.net/63/63f97d76f174463c8db12d707135ccdf.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=528&h=352&fit=fill&fm=png32&bg=transparent&s=fc2c77505cd9e8c931bb18d370f852d9"
+            alt="fakeimage"
+          />
+        </div>
+        <div className="flex flex-col gap-2 absolute left-180 top-8 bg-cyan-400 px-15 py-10">
+          <h4 className="text-md font-normal">
+            Fill out the form below to begin:
+          </h4>
+          <form className=" text-sm font-semibold">
+            <div>
+              <label htmlFor="first_name">*First Name</label>
+              <br />
+              <input
+                className=" border-b-[1px] w-full"
+                type="text"
+                id="first_name"
+              />
+            </div>
+            <div>
+              <label htmlFor="last_name">*Last Name</label>
+              <br />
+              <input
+                className=" border-b-[1px] w-full"
+                type="text"
+                id="last_name"
+              />
+            </div>
+            <div>
+              <label htmlFor="email">*Email d</label>
+              <br />
+              <input
+                className=" border-b-[1px] w-full"
+                type="email"
+                id="email"
+              />
+            </div>
+            <div>
+              <label htmlFor="number">*Phone Number</label>
+              <br />
+              <input
+                className=" border-b-[1px] w-full"
+                type="number"
+                id="number"
+              />
+            </div>
+            <div>
+              <label htmlFor="state">*State</label>
+              <br />
+              <input
+                className=" border-b-[1px] w-full"
+                type="text"
+                id="state"
+              />
+            </div>
+            <div>
+              <label htmlFor="Zip">*Zip Code</label>
+              <br />
+              <input
+                className=" border-b-[1px] w-full"
+                type="number"
+                id="Zip"
+              />
+            </div>
+            <div>
+              <p className="text-sm font-serif">
+                ₹ 1.7 Crore Liquid Capital Required
+              </p>
+              <div className="text-center my-3">
+                <button className="border-2 px-4 py-2 text-sm font-bold">
+                  Get Started
+                </button>
+              </div>
+              <p className="max-w-60 text-[8px] text-justify">
+                By entering your information you are agreeing to receive
+                information about Wing Zone via text and email. You can opt-out
+                at any time. No mobile information will be shared with third
+                parties/affiliates for marketing/promotional purposes. All other
+                categories exclude text messaging originator opt-in data and
+                consent; this information will not be shared with any third
+                parties.
+              </p>
+            </div>
+          </form>
         </div>
       </div>
     </div>
