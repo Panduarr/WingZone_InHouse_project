@@ -5,11 +5,14 @@ import Whywing from "./pages/franchising/why/whywing";
 import OwnTheZone from "./pages/franchising/ownthezone/ownthezone";
 import Investment from "./pages/franchising/investment/investment";
 import Getstarted from "./pages/franchising/getstarted/getstarted";
+import IndiaMap from "./pages/location/location";
+
 
 function App() {
   return (
     <div>
       <Navbar />
+      
       <Routes>
         <Route path="about" element={<About />} />
         <Route path="/whywing" element={<Whywing />} />
@@ -17,6 +20,8 @@ function App() {
         <Route path="/ownthezone" element={<OwnTheZone />} />
         <Route path="/getstarted" element={<Getstarted />} />
       </Routes>
+
+      <IndiaMap width={600} />
     </div>
   );
 }

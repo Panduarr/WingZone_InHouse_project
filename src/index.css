@@ -31,3 +31,13 @@
 .side-pop-left {
   animation: 1s sidePopLeft ease-in-out forwards;
 }
+
+
+
+.india-map path {
+  @apply fill-gray-300 stroke-gray-700 stroke-[0.5] transition-colors duration-200 cursor-pointer;
+}
+
+.india-map path:hover {
+  @apply fill-blue-300;
+}
